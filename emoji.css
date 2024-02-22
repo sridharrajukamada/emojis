@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+
+#box{
+height:160px;
+width: 200px;
+background-color:rgb(250, 222, 6);
+position: relative;
+margin-top: 100px;
+border-radius: 100%;
+box-shadow: 4px 4px 10px 4px rgb(129, 2, 2);
+
+}
+#eye1{
+    height:40px;
+width: 40px;
+background-color: rgb(235, 10, 197);
+position: absolute;
+border-radius: 50%;
+margin-top: 50px;
+margin-left: 50px;
+}
+#eye2{
+    height:40px;
+width: 40px;
+background-color: rgb(235, 10, 197);
+position: absolute;
+border-radius: 50%;
+margin-top: 50px;
+margin-right: 50px;
+}
+#iris1{
+    height:30px;
+width: 20px;
+background-color:aliceblue;
+position: absolute;
+border-radius: 50%;
+margin-top: 50px;
+margin-left: 50px;
+}
+#iris2{
+    height:30px;
+width: 20px;
+background-color:aliceblue;
+position: absolute;
+border-radius: 50%;
+margin-top: 50px;
+
+margin-right: 50px;
+}
+#ir1{
+    height:10px;
+width: 10px;
+background-color:black;
+position: absolute;
+border-radius: 50%;
+margin-top: 60px;
+
+margin-left: 50px;
+
+}
+#ir2{
+    height:10px;
+width: 10px;
+background-color:black;
+position: absolute;
+border-radius: 50%;
+margin-top: 60px;
+
+margin-right: 50px;
+}
+#mouth {
+    position: absolute;
+    margin-top: 198px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    border-bottom: none;
+    border-top: 10px solid black
+}
+#nose {
+    position:absolute;
+    height:15px;
+    width: 15px;
+    background-color:rgb(15, 3, 107);
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 115px;
+    margin-right: 5px;
+
+}
